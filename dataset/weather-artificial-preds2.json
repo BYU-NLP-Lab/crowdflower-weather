@@ -1,0 +1,49 @@
+[
+  {
+    "annotator": "123456789",
+    "endtime": 0,
+    "measurement": {
+      "confidence": 1,
+      "endtime": 0,
+      "label": "Positive",
+      "starttime": 0,
+      "type": "cls_prop",
+      "value": 0.5
+    },
+    "starttime": 0
+  },
+  {
+    "annotator": "123456789",
+    "endtime": 0,
+    "measurement": {
+      "confidence": 1,
+      "endtime": 0,
+      "label": "Negative",
+      "starttime": 0,
+      "type": "cls_prop",
+      "value": 0.5
+    },
+    "starttime": 0
+  },
+  {
+    "annotation": "Positive",
+    "annotator": "alice",
+    "data": "Wishing good weather were here again",
+    "endtime": 1377303489,
+    "source": "81993620",
+    "starttime": 1
+  },
+  {
+    "annotation": "Negative",
+    "annotator": "bob",
+    "data": "Wishing good weather were here again",
+    "endtime": 1377303500,
+    "source": "81993620",
+    "starttime": 2
+  },
+  {
+    "data": "Wishing good weather were here again",
+    "label": "Negative",
+    "source": "81993620"
+  }
+]

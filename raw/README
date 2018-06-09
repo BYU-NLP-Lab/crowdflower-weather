@@ -1,0 +1,11 @@
+Paul felt notes:
+
+* weather tweets were sentiment-labeled and used as a part of the crowscale 2013 shared task.
+these files were obtained from crowdflower's data-for-everyone initiative. 
+http://www.crowdflower.com/data-for-everyone
+
+* The "evaluated" task performs a meta-annotation judging whether each aggregated judgment 
+from task 1 is correct or not. We use the aggregated version of this to assemble a 
+gold standard.
+
+* bo han's twitter normalization dictionary originally came from the twitterparaphrase.

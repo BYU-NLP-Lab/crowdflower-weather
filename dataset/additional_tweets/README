@@ -1,0 +1,17 @@
+If you wish to augment your dataset with still more tweets, do
+
+1) build the dataset as usual in ..
+2) run collect_tweets.sh for as long as you want and then stop it with ctrl-c
+    * Note that this script requires that you give it programmatic access to twitter. 
+    Do this by creating a twitter account, then an application 
+    (https://dev.twitter.com/oauth/overview/application-owner-access-tokens).
+    Finally create a cred.json file containing your twitter application keys and secrets
+    e.g., 
+      {
+        "consumer_key":"KEY",
+        "consumer_secret":"SECRET",
+        "access_token_key":"KEY",
+        "access_token_secret":"SECRET"
+       }
+
+3) run add_tweets_to_dataset.sh 
